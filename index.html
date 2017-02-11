@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+ <head>
+   <title> Fitness Camp </title>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
+ <link href="https://google-webfonts-helper.herokuapp.com/fonts/delius-unicase?subsets=latin" rel="stylesheet">
+ <style>
+   
+      body { 
+          font-family:comic sans ms;
+          margin:0 auto;
+          text-align:center;
+          background: url("images/nature.jpg");
+          background-size:cover;
+          background-position:center;
+         }
+      h1{
+         font-family:delius-unicase;
+         color:red;
+         background:url("images/pic.jpg");
+         font-size:70px;
+         margin-top:40px;
+        }
+
+      article{
+           font-size:20px;
+          text-align:center;
+          background:url("images/pic.jpg");
+          color:white;
+          }
+       ul {
+           padding:5px;
+            background:yellow;
+          }
+      li{
+         display:inline;
+         padding:0px 10px 0px 10px;
+        }
+     div{
+        background-size:cover;
+        position:relative;
+        height:350px;
+        width:800px;
+        margin:0 300px 0 300px;
+        border :2px solid rgb(255,255,0);
+        border-radius:30px;
+       }
+     small{
+           opacity:0;
+          }
+    .first{
+          background-image:url("images/yoga.jpg");
+          }
+    .second{
+          background-image:url("images/body building.jpg");
+          color:rgb(255,255,255);
+          }
+     .third{
+           background-image:url("images/meditation.jpg");
+          }
+     .fourth{
+           background-image:url("images/cycle.jpeg");
+          }
+       p{ 
+          color:rgba(255,255,255,1);
+          padding:10px;
+          font-size:20px;
+          line-height:25px;
+          text-align:justify;
+          position:absolute;
+          bottom:0;
+          margin:0;
+          height:40px;
+          transition:height .5s;        
+          -webkit-transition:height .5s;
+          -moz-transition:height .5s;
+ 
+        }
+     input{
+           padding:3px;
+           font-size:20px;
+           color:rgb(128,0,0);
+          }
+     
+      .Price{
+             float:right;
+            }
+      
+        
+      h2{
+        margin-bottom:70px;
+        }
+     button {
+         background-color: white;
+         border:20px;
+         color:red;
+         padding: 15px 32px;
+         text-align: center;
+         display: inline-block;
+         font-size: 16px;
+         }
+    img{
+         height: 100px;
+         width: 120px;
+         border-radius: 4px;
+         border: 1px solid red;
+         margin:0 100px 0 0; 
+        }  
+    
+    .show-description p{
+                        height:150px;
+                        }
+    .show-description small{
+                             opacity:1;
+                             }
+     @media (max-width:500px){
+                 h1{
+                    font-size:50px;
+                    margin-top:20px;
+                    line-height:40px;
+                   }
+                 h2{
+                     font-size:20px;
+                     margin:20px 0 30px 0;
+                    }
+                  p{
+                    font-size:20px;
+                    line-height:24px;
+                   }
+                  div{
+                       margin:20px 12px 0 12px;
+                      }
+                small{
+                        font-size:16px;
+                       }
+          }
+
+ </style>
+</head>
+<body>
+   <h1>HEALTH    FITNESS    CAMP</h1> <br />
+   <article><h2>" Welcome to FITNESS CAMP where you can develop your fitness to a great level" </h2>
+   <h3> These programs are designed to build strength and fitness through a variety of exercises,training from renowed experts and are able to teach you importance of fitness for GOOD LIVING.</h3>
+   <h4>  You can registered for the following activities involved in our camp </h4></article>
+     <ul>
+              <li><a href="#"> YOGA </a></li>
+              <li><a href="#"> BODY BUILDING </a></li>
+              <li><a href="#"> MEDITATION </a></li>
+              <li><a href="#"> CYCLING </a></li>
+     </ul>
+    Yoga<img src="images/yoga.jpg">
+    Body Building<img src="images/body building.jpg">
+    Meditation<img src="images/meditation.jpg">
+    Cycling<img src="images/cycle.jpeg"> 
+   <br />
+   <br />
+     <div class="first show-description"> <h2>YOGA</h2>
+     <p style="color:rgb(255,255,0);">YOGA <span class="Price"> $15 </span> <br /> 
+      <small>Yoga is a group of physical, mental, and spiritual practices or disciplines . It is a disciplined method for attaining a goal,techniques of controlling the body and the attainment of other supernatural accomplishments.
+             Interested can go for registration.<br />
+      <input type="email" placeholder="Give your emailid">    
+      <button>REGISTER</button> </small></p>
+     </div> <br />
+     
+     <div class="second show-description"> <h2>BODY BUILDING</h2>
+     <p style="color:aqua;">BODY BUILDING <span class="Price"> $20 </span> <br />
+     <small> Bodybuilding is the use of progressive resistance exercise to control and develop one's musculature.We hope you will enjoy the resources we have put together to help you start on your journey of Building your Muscles. 
+     Interested can go for registration.<br />
+      <input type="email" placeholder="Give your emailid">    
+      <button>REGISTER</button></small></p>
+      <h3> FEELING GOOD BEING FIT </h3>
+     </div>  <br />
+     
+     <div class="third show-description"> <h2>MEDITATION</h2>
+     <p style="color:#800080;">MEDITATION <span class="Price"> $10 </span> <br />
+        
+      <small> Meditation is that which gives you deep rest. It is a simplified activity which can easily be practiced by all. It gives relaxation, rejuvenation and good luck  all are natural results of meditating regularly.
+             Interested can go for registration.<br />
+      <input type="email" placeholder="Give your emailid">    
+     <button>REGISTER</button></small></p>
+      </div>  <br />
+
+      
+     <div class="fourth show-description"> <h2>CYCLING</h2>
+     <p style="color:white;">CYCLING <span class="Price"> $10 </span> <br />
+        
+      <small> Cycling is one of the easiest ways to fit exercise into your daily routine because it's a form of transport. It also saves your money,gets you fit,helps the environment.Here we provide latest technology cycle to enjoy riding.
+          Interested can go for registration.<br />
+      <input type="email" placeholder="Give your emailid">    
+      <button>REGISTER</button></small></p>
+      </div>  <br /><br /><br /><br /><br /><br />
+   
+   
+   
+    <h2>Get updates regarding upcoming fitness camp here:</h2><br />
+   <input type="email" placeholder="Give your email-id">
+   <button>UPDATES</button>
+
+<ul>
+    <li><a href="#">Terms and Conditions</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+
+<script>alert("Javascript works!")
+           $('div').on('click',function() {$(this).toggleClass('show-description');}); </script>
+</body>
+</html>
+ 
+
